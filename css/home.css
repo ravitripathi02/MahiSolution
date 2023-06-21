@@ -367,7 +367,7 @@ a{
     text-align: center;
 }
 .fb1{
-    display: flex;
+    
     text-align: center;
     justify-content: center;
     padding-top: 60px;
@@ -375,6 +375,7 @@ a{
     font-size: 25px;
 }
 .fb2{
+   
     padding-bottom: 40px;
 }
 .service{
@@ -454,4 +455,83 @@ flex-direction: column;
     display: flex;
     gap: 10px;
     width: 400px;
+}
+.pic{
+    object-fit: fill;
+    height: 350px;
+    width: 1519.2px;
+}
+
+
+@media screen and (max-width:600px)
+{
+    .back1{
+        width: 115vw;
+        height: 98vw;
+        border-radius: 20px 20px 20px 20px;
+    }
+
+    .main1{
+        height: 550px;
+        width: 865px;
+        gap: 30px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .part{
+        width: 865px;
+        
+    }
+    .part3{
+        gap: 20px;
+        
+    }
+.service{
+    width: 865px;
+}
+.clser1,.clser2,.clser3{
+    width: 182px;
+}
+.l2{
+    text-align: center;
+}
+.aboutus{
+    width: 765px;
+}
+.aboutus-hr1, .aboutus-hr2, .aboutus-hr3 {
+    gap:0px;
+}
+.loly{
+    flex-direction: column;
+    padding-bottom: 50px;
+    width: 865px;
+}
+.loly1{
+        align-items: center;
+        width: 84%; 
+}
+.loly2{
+    align-items: center;
+    width: 100%;
+}
+.row3{
+    padding-right: 364px;
+}
+.min{
+    width: 865px;
+}
+.min3{
+    gap:92px
+}
+.fb{
+    width: 865px;
+}
+.pic{
+    height: 230px;
+    width: 865px;
+}
+.footer{
+    width: 865px;
+}
 }
